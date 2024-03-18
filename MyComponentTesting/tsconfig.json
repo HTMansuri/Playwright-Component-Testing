@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "allowImportingTsExtensions": true,
+        "jsx": "react-jsx",
+        "noEmit": true,
+        "paths": {
+            "@/*": ["src/*"],
+            "test/*": ["tests/*"]
+        },
+    }
+}
